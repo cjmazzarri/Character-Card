@@ -60,4 +60,9 @@ section p{
     font-family: 'Quicksand', sans-serif;
     text-align: justify;
 }
-    
+
+@media(max-width: 640px){
+    section.card{
+        width: 35rem;
+    }
+}
